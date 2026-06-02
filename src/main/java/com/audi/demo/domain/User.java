@@ -144,6 +144,10 @@ public class User {
 	public User(long id2) {
 		this.id = id;
 	}
+	
+	public User() {
+		
+	}
 
 	
 	
