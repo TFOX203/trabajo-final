@@ -32,6 +32,7 @@ User user = new User();
 user.setId(1L);
 // si tu clase User tiene más campos, puedes setearlos aquí
 
+
 when(userRepository.findById(1L)).thenReturn(Optional.of(user));
 
 User result = userService.getUser(1L);

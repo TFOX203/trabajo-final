@@ -14,6 +14,8 @@ import com.audi.demo.domain.User;
 public interface UserService {
 
 	 User getUser(long id);
+
+	 User saveUser(User user);
 		
 	
 
