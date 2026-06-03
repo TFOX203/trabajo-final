@@ -20,7 +20,7 @@ import com.audi.demo.service.UserService;
  * @author sasha
  */
 @RestController
-@RequestMapping
+@RequestMapping("/api/users")
 @CrossOrigin("*")
 public class UserController {
 	
